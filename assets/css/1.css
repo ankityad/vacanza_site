@@ -1,0 +1,23 @@
+#logo {
+	width: 7%;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#logo:hover {
+	width: 9%;
+}
+
+#main {
+	text-decoration: none;
+}
+
+#main:hover {
+	color: #ff0101;
+}
+
+iframe {
+	max-width: 100% !important;
+}

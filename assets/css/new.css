@@ -1,0 +1,152 @@
+
+.clearfix:after{
+    display:table;
+    clear:both;
+    content:"";
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+#header_top{
+    background-color: black;
+    width:100%;
+    height:80px;
+}
+.header_top_left,#header .logo{
+   width: 300px;
+    height: 50px;
+    padding:15px 30px 15px 120px;
+}
+#header #header_top a{
+    text-decoration: none;
+    color:white;
+}
+#header .header_top_left span{
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    color:#9A9A9A;
+    font-weight: 150px;
+  font-family: 'Roboto Slab', serif;
+}
+#header .header_top_left .fa{
+    font-size:25px;
+    padding:3px;
+}
+#header .header_top_right li{
+    display:inline-block;
+    height:80px;
+    width:80px;
+    font-size:20px;
+   padding-top: 30px;
+}
+#header .logo img
+{
+    height:35px;
+    padding: 8px;
+}
+#header #header_bottom .navigation{
+    height:50px;
+    border-bottom: 2px solid #C6C6C6;
+}
+#header #header_bottom a{
+     text-decoration: none;
+    color:black;
+}
+#header #header_bottom ul{
+    height:50px;
+    width:100%;
+    padding:0px 0px 0px 100px;
+}
+#header #header_bottom li{
+    display:inline-block;
+    height:100%;
+    padding:1.4%;
+    text-align: center;
+}
+#header #header_bottom .dropdown{
+    position: absolute;
+    display: none;
+    background-color: black;
+    height:36%;
+    width:100%;
+    left:0px;
+    top:25.3%;
+    color:white;
+    border:1px solid #C7C7C7;
+}
+.div1{
+    position:absolute;
+    right: 35%;
+    height: 27%;
+    width: 25%;
+    border:1px solid #C7C7C7;
+    padding:30px 0px 20px 0px;
+    
+}
+.div2{
+    position:absolute;
+    right: 10%;
+    height: 27%;
+    width: 25%;
+    border:1px solid #C7C7C7;
+    padding:30px 0px 20px 0px;
+}
+.div3{
+    position:absolute;
+    top:49%;
+    right: 35%;
+    height: 27%;
+    width: 25%;
+    border:1px solid #C7C7C7;
+    padding:30px 0px 20px 0px;
+}
+.div4{
+    position:absolute;
+    right: 10%;
+    height: 27%;
+    width: 25%;
+    top:49%;
+    border:1px solid #C7C7C7;
+    padding:30px 0px 20px 0px;
+}
+#header #header_bottom .dropdown .div5{
+     position:absolute;
+    color:white;
+    background-color:#1F1F1F;
+    left: 9.6%;
+    height: 100%;
+    width: 30%;
+}
+#header #header_bottom .dropdown .div5 .list_1{
+    position: absolute;
+    width:50%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+#header #header_bottom .dropdown .div5 .list_2{
+    position: absolute;
+    left:50%;
+    width:50%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+#header #header_bottom .dropdown .div5 ul li{
+    display: block;
+    height: 5%;
+}
+#header #header_bottom ul li:hover .dropdown{
+    display:block;
+    
+}
+
+
